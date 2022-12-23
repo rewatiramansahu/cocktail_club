@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Validator;
 use Carbon\Carbon;
 
 class UserController extends Controller
-{
+{ 
     /**
      * Handle the incoming request.
      *
