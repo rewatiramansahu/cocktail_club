@@ -67,5 +67,6 @@ class Kernel extends HttpKernel
         'ifLoggedIn' => \App\Http\Middleware\ifLoggedin::class,
 		'checkLogin' => \App\Http\Middleware\checkLogin::class,
         'superadmin' => \App\Http\Middleware\CheckLoginForSuperAdmin::class,
+        'preventBackHistory' => \App\Http\Middleware\PreventBackHistory::class,
     ];
 }
